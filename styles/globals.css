@@ -1,16 +1,115 @@
-html,
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap");
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: #131a4d;
+  color: #ddd;
+  font-family: "Nunito";
+}
+.dark-mode {
+  font-family: "Aurebesh";
+  background: rgb(30, 30, 30);
+  color: rgb(74, 116, 255);
 }
 
 a {
-  color: inherit;
+  color: #ddd;
   text-decoration: none;
 }
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.dv {
+  float: right;
+}
 
-* {
-  box-sizing: border-box;
+/* responsive larger */
+@media only screen and (min-width: 601px) {
+  .topnav {
+    margin: 10px auto 80px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* border-bottom: 1px solid #ddd; */
+    border-bottom: 1px solid #d4af37;
+  }
+  .topnav a {
+    margin-left: 12px;
+  }
+
+  .logo {
+    margin-right: auto;
+    color: #333;
+    font-size: large;
+    font-family: "Aurek-Besh Narrow";
+  }
+}
+
+footer {
+  display: block;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 60px;
+  color: #777;
+  border-top: 1px solid #cc9933;
+}
+.not-found {
+  text-align: center;
+}
+.not-found a {
+  color: #4979ff;
+  text-decoration: underline;
+}
+.icon {
+  display: none;
+}
+
+.icon:focus {
+  outline: 0;
+}
+.active {
+  display: none;
+}
+
+/* responsive smaller */
+@media only screen and (max-width: 600px) {
+  .topnav .logo {
+    display: none;
+  }
+
+  .topnav {
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto 80px;
+  }
+
+  .topnav #myLinks {
+    display: none;
+  }
+
+  .topnav a {
+    color: #2463b4;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .topnav a.icon {
+    background: #131a4d;
+    /* background: rgb(30, 30, 30); */
+    border-left: 2px solid #2463b4;
+    border-right: 2px solid #2463b4;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .active {
+    /* background-color: #20336e; */
+    /* background-color: #176fd411; */
+    color: #fff;
+  }
 }
