@@ -1,8 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import Navbar from "../comps/Navbar";
-import Footer from "../comps/Footer";
 import Link from "next/link";
 
 export default function Home() {
@@ -10,7 +7,7 @@ export default function Home() {
     <>
       <Head>
         <title>Swapi Next | Home</title>
-        <meta name="keywords" content="ninjas" />
+        <meta name="keywords" content="swapi" />
       </Head>
       <div>
         <h1 className={styles.title}>SWAPI NEXT</h1>

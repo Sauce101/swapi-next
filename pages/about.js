@@ -21,7 +21,7 @@ const About = () => {
           all. The data is all formatted in JSON and also supports JSON Schema
           for programmatically understanding the attributes of each resource.
           This is all JSON data written years ago. It's an older code sir but it
-          checks out. :)
+          checks out.
         </p>
         <p className={styles.text}>
           The trick for me was adding an id key value pair after fetching the
