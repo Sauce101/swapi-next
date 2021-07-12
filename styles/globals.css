@@ -38,7 +38,6 @@ a {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    /* border-bottom: 1px solid #ddd; */
     border-bottom: 1px solid #d4af37;
   }
 
@@ -84,13 +83,14 @@ footer {
   display: none;
 }
 
+/* responsive smaller */
 @media screen and (max-width: 600px) {
   .topnav #myLinks {
     display: none;
   }
 
   .topnav a.icon {
-    background: #131a4d;
+    /* background: #131a4d; */
     /* background: rgb(30, 30, 30); */
     border-left: 2px solid #2463b4;
     border-right: 2px solid #2463b4;
@@ -111,6 +111,8 @@ footer {
     overflow: hidden;
     position: relative;
     margin: 10px auto 80px;
+    padding: 10px 0;
+    border-bottom: 1px solid #d4af37;
   }
 
   .topnav.responsive #myLinks {
