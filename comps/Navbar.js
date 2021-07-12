@@ -8,14 +8,23 @@ const handleClick = (e) => {
   element.classList.toggle("dark-mode");
 };
 
-function myFunction() {
+// function myFunction() {
+//   var x = document.getElementById("myTopnav");
+//   if (x.className === "topnav") {
+//     x.className += " responsive";
+//   } else {
+//     x.className = "topnav";
+//   }
+// }
+
+const myFunction = (e) => {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
     x.className += " responsive";
   } else {
     x.className = "topnav";
   }
-}
+};
 
 const Navbar = () => {
   return (
