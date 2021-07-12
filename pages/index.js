@@ -14,7 +14,7 @@ export default function Home() {
         <p className={styles.text}>
           This is Swapi Next, a pet program written in Next.js and a Star Wars
           API. Here you can glance at some Star Wars data that might be of
-          interest you. The Aurebesh alphabet is the written form of the Star
+          interest to you. The Aurebesh alphabet is the written form of the Star
           Wars language, "Galactic Basic". You can take a look by pressing
           translate or C-3po depending on your screen size. In the future I may
           add to or change the contents and style of this program.

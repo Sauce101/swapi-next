@@ -28,19 +28,19 @@ const Navbar = () => {
       </a>
       <div id="myLinks">
         <Link href="/">
-          <a>Home</a>
+          <a onClick={myFunction}>Home</a>
         </Link>
         <Link href="/about">
-          <a>About</a>
+          <a onClick={myFunction}>About</a>
         </Link>
         <Link href="/people">
-          <a>People</a>
+          <a onClick={myFunction}>People</a>
         </Link>
         <Link href="/starships">
-          <a>Starships</a>
+          <a onClick={myFunction}>Starships</a>
         </Link>
         <Link href="/vehicles">
-          <a>Vehicles</a>
+          <a onClick={myFunction}>Vehicles</a>
         </Link>
       </div>
       <a href="#" className="icon" onClick={myFunction}>
