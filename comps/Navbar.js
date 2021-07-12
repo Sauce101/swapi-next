@@ -9,17 +9,17 @@ const handleClick = (e) => {
 };
 
 function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
   } else {
-    x.style.display = "block";
+    x.className = "topnav";
   }
 }
 
 const Navbar = () => {
   return (
-    <div className="topnav">
+    <div className="topnav" id="myTopnav">
       <a href="#" className="active" onClick={handleClick}>
         Translate
       </a>

@@ -26,9 +26,9 @@ a {
   max-width: 960px;
   margin: 0 auto;
 }
-.dv {
+/* .dv {
   float: right;
-}
+} */
 
 /* responsive larger */
 @media only screen and (min-width: 601px) {
@@ -44,12 +44,14 @@ a {
   .topnav a {
     margin-left: 12px;
   }
-
   .logo {
     margin-right: auto;
     color: #333;
     font-size: large;
     font-family: "Aurek-Besh Narrow";
+  }
+  .topnav #myLinks {
+    display: block;
   }
 }
 
@@ -91,7 +93,7 @@ footer {
     margin: 10px auto 80px;
   }
 
-  .topnav #myLinks {
+  .topnav.responsive #myLinks {
     display: none;
   }
 
