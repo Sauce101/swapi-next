@@ -6,7 +6,7 @@ const About = () => {
     <>
       <Head>
         <title>Swapi Next | About</title>
-        <meta name="keywords" content="ninjas" />
+        <meta name="keywords" content="swapi-next about" />
       </Head>
       <div>
         <h1 className={styles.title}>About</h1>

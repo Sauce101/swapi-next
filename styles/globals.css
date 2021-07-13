@@ -47,9 +47,9 @@ a {
 
   .logo {
     margin-right: auto;
-    color: #333;
+    /* color: #333;
     font-size: large;
-    font-family: "Aurek-Besh Narrow";
+    font-family: "Aurek-Besh Narrow"; */
   }
 
   .topnav #myLinks {

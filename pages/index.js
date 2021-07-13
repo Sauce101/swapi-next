@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Head>
         <title>Swapi Next | Home</title>
-        <meta name="keywords" content="swapi" />
+        <meta name="keywords" content="swapi next" />
       </Head>
       <div>
         <h1 className={styles.title}>SWAPI NEXT</h1>
