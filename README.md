@@ -12,7 +12,7 @@ Open [SW-API](https://swapi-next.vercel.app/) to view it in your browser.
 
 ## 🧐 What's inside?
 
-A quick look at the sections you'll see in this Gatsby project.
+A quick look at the sections you'll see in this Next.js project.
 
 1.  **`People List:`**
 
